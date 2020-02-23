@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,40 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-    
+    <section class="about-me">
+        <header class="about-me__header">
+            <div class="about-me__pict">
+                <picture>
+                    <source type="image/webp" srcset="static/img/photo.webp 1x, static/img/photo@2x.webp 2x">
+            
+                    <img class="works-item__image" src="static/img/photo.jpg" srcset="static/img/photo@2x.jpg 2x" alt="Пример нашей работы">
+                </picture>
+            </div>
+            <h2 class="about-me__name">Nikita Fedorov</h2>
+            <div class="about-me__contacts">
+                <ul class="contacts__list">
+                    <li class="contacts__item">
+                        <a href="https://vk.com/id50172231" class="contacts__link">
+                            <svg class="social__link-icon social__link-icon--vk" width="50" height="50">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#vk"></use>
+                            </svg>
+                            В вконтакте
+                        </a>
+                    </li>
+                    <li class="contacts__item">
+                        <a href="https://github.com/FedorovNikita" class="contacts__link">
+                            <svg class="social__link-icon social__link-icon--vk" width="50" height="50">
+                                <use xlink:href="static/img/svg/symbol/sprite.svg#github"></use>
+                            </svg>
+                            На GitHub
+                        </a>
+                    </li>
+                </ul>
+                <a href="tel:+79193059567" class="contacts__phone">8 (919) 305-95-67</a>
+                <button class="contacts__btn">Показать телефон</button>
+            </div>
+        </header>
+    </section>
     <script src="static/js/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,40 @@
+.contacts__list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+.contacts__item {
+    margin-right: 10px;
+}
+
+.contacts__link {
+    font-size: 0;
+}
+
+
+.contacts__phone {
+    display: none;
+    color: #000000;
+    font-weight: bold;
+    &--active {
+        display: inline-block;
+    }
+}
+
+.contacts__btn {
+    background-color: transparent;
+    border: 2px solid #4e4e4e;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 10px;
+    min-width: 180px;
+    transition: all 0.4s;
+    &:hover {
+        background-color: #ebebeb;
+    }
+}
